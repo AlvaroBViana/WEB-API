@@ -1,0 +1,16 @@
+* {
+    margin: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(77, 103, 69);
+}
+form {
+    margin: 20px auto; 
+    box-shadow: 0 10px 1px rgb(69, 110, 110);
+    border-radius: 50px;
+    background-color: rgb(165, 165, 197);
+}

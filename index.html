@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-</head>
-<body>
-    <center>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css"></link>
+    </head>
+    <body>  
         <main>
-            <form>
-                Endereço:<input type="text" name="Endereço" id="endereco">
-                CEP:<input type="number" name="CEP" id="CEP" placeholder="Somente colocar números, sem traços ou hífens" required>
-                Cidade:<input type="text" name="Cidade" id="Cidade">
-                Estado:<input type="text" name="Estado" id="states">
-                Telefone:<input type="number" name="Número" id="number">
-                <button type="submit" onclick="CEP()">Submeter</button>
-            </form>
-        </main>
-    </center>
-    
-</body>
+                <form>
+                    <p><label for="address">Endereço:</label>
+                    <input type="text" name="Endereço" id="address">
+                    
+                    <p><label for="CEP">CEP:</label>
+                    <input type="number" name="CEP" id="CEP" required></p>
 
-<link rel="stylessheet" href="styles.css"></link>
+                    <p><label for="city">Cidade:</label>
+                    <input type="text" name="Cidade" id="city"></p>
+
+                    <p><label for="states">Estado:</label>
+                    <input type="text" name="Estado" id="states"></p>
+
+                    <p><label for="UF">UF:</label>
+                    <input type="text" name="UF" id="UF"></p>
+
+                    
+                    <button type="button" onclick="">Enviar</button>
+                </form>
+        </main>
+    </body>
+
 <script src="scripts.js"></script>    
 </html>
